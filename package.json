@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/diligentdexterity/react-nepali-dates.git"
+    "url": "https://github.com/diligentdexterity/react-nepali-dates"
   },
   "bugs": {
     "url": "https://github.com/diligentdexterity/react-nepali-dates/issues"
@@ -58,5 +58,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "private": "false"
+  "private": "false",
+  "repositoryUrl": "https://github.com/diligentdexterity/react-nepali-dates"
 }
