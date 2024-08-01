@@ -55,6 +55,9 @@
       "next"
     ]
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "private": "false",
   "repositoryUrl": "https://github.com/diligentdexterity/react-nepali-dates",
   "homepage": "https://github.com/diligentdexterity/react-nepali-dates#readme"
