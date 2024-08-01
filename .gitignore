@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+# production
+/build
+# local env files
+.env*.local
+# Packed zip
+react-nepali-date-0.0.1.tgz
