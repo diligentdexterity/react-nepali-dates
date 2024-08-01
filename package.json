@@ -1,6 +1,6 @@
 {
   "name": "react-nepali-date",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "main": "src/index.ts",
   "files": [
     "src/**/*"
@@ -15,7 +15,8 @@
     "bs to ad date"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "Diligent Dexterity",
   "license": "MIT",
@@ -26,7 +27,8 @@
     "eslint": "^8",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "semantic-release": "^24.0.0"
   },
   "peerDependencies": {
     "@radix-ui/react-popover": "^1.1.1",
@@ -39,5 +41,22 @@
     "react": "^18",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diligentdexterity/react-nepali-dates"
+  },
+  "bugs": {
+    "url": "https://github.com/diligentdexterity/react-nepali-dates/issues"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "private": "false"
 }
